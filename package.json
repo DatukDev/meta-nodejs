@@ -1,11 +1,22 @@
 {
+  "name": "Auto-Blast-WhatsApp-Meta",
+  "version": "1.0.0",
+  "description": "Auto Blast WhatsApp Meta With Selenium",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.2",
-    "cli-table": "^0.3.11",
+    "axios": "^0.27.2",
     "colors": "^1.4.0",
-    "dotenv": "^16.4.5",
-    "node-wmi": "^0.0.5",
-    "puppeteer": "^22.13.1",
-    "selenium-webdriver": "^4.22.0"
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "selenium-webdriver": "^4.4.0",
+    "wmi": "^0.0.7",
+    "child_process": "^1.0.2"
   }
 }
